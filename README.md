@@ -8,8 +8,8 @@ This repository contains data and resources related to the ADA educational data 
 ## Contents
 Within the `edu-data.zip` archive, the following key files are included:
 
-- *education_data._raw_yt_metadata.jsonl.csv*
-- *education_data._raw_yt_metadata.jsonl_no_description.csv*
-- *education_channel_with_country.csv*
-- *other_channel_with_country.csv*
-- *video_with_channelcountry.csv*
+- `education_data._raw_yt_metadata.jsonl.csv`
+- `education_data._raw_yt_metadata.jsonl_no_description.csv`
+- `education_channel_with_country.csv`
+- `other_channel_with_country.csv`
+- `video_with_channelcountry.csv`
