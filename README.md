@@ -13,3 +13,5 @@ Within the `edu-data.zip` archive, the following key files are included:
 - `education_channel_with_country.csv`
 - `other_channel_with_country.csv`
 - `video_with_channelcountry.csv`
+
+The `education_data._raw_yt_metadata.jsonl.csv` and `education_data._raw_yt_metadata.jsonl_no_description.csv`contains all videos with education category. The `education_channel_with_country.csv`, `other_channel_with_country.csv` are derived from `__mini___raw_df_channels_100k.tsv`, which is the sample of the raw channel dataset. `video_with_channelcountry.csv` is the obtained by left-joining the `education_data._raw_yt_metadata.jsonl.csv` and `education_channel_with_country.csv`
