@@ -8,10 +8,10 @@ This repository contains data and resources related to the ADA educational data 
 ## Contents
 Within the `edu-data.zip` archive, the following key files are included:
 
-- `education_data._raw_yt_metadata.jsonl.csv`
-- `education_data._raw_yt_metadata.jsonl_no_description.csv`
-- `education_channel_with_country.csv`
-- `other_channel_with_country.csv`
-- `video_with_channelcountry.csv`
+- `education_data._raw_yt_metadata.jsonl.csv` - contains all videos with education category.
+- `education_data._raw_yt_metadata.jsonl_no_description.csv` - contains all videos with education category, without description
+- `education_channel_with_country.csv` - channel data with education category, obtained by `__mini___raw_df_channels_100k.tsv` and YouTube API
+- `other_channel_with_country.csv` - channel data with categories other than education, obtained by `__mini___raw_df_channels_100k.tsv` and YouTube API
+- `video_with_channelcountry.csv` - videos with country data, obtained by left-joining `education_data._raw_yt_metadata.jsonl_no_description.csv` and `education_channel_with_country.csv`
 
-The `education_data._raw_yt_metadata.jsonl.csv` and `education_data._raw_yt_metadata.jsonl_no_description.csv`contains all videos with education category. The `education_channel_with_country.csv`, `other_channel_with_country.csv` are derived from `__mini___raw_df_channels_100k.tsv`, which is the sample of the raw channel dataset. `video_with_channelcountry.csv` is the obtained by left-joining the `education_data._raw_yt_metadata.jsonl.csv` and `education_channel_with_country.csv`
+
